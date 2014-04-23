@@ -21,8 +21,8 @@ import java.sql.SQLException;
 import java.util.Map;
 
 import org.hibernate.HibernateException;
-import org.hibernate.engine.jdbc.connections.spi.ConnectionProvider;
 import org.hibernate.service.UnknownUnwrapTypeException;
+import org.hibernate.service.jdbc.connections.spi.ConnectionProvider;
 import org.hibernate.service.spi.Configurable;
 import org.hibernate.service.spi.Stoppable;
 import org.slf4j.Logger;
@@ -32,7 +32,7 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 /**
- * Connection provider for Hibernate 4.3.
+ * Connection provider for Hibernate 4.2.
  *
  * @author Brett Wooldridge, Luca Burgazzoli
  */
